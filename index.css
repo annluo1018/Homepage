@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    background-color: #F3EFDD;
+}
+
+.header {
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    background-color: #333;
+    color: darkgrey;
+    font-size: 15px;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FAD7A0;
+}
+
+.header li {
+    float: left;
+}
+
+.header li a {
+    display: block;
+    color: #808B96  ;
+    text-align: center;
+    padding: 0px 13px;
+    text-decoration: none;
+}
+
+.header li a:hover {
+    background-color: #111;
+    color: white;
+}
+
+
+.footer {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #FAD7A0;
+    color: white;
+    font-size: 13px;
+}
+        
+.leftSide {
+    float: left;
+    width: 0px;
+    padding: 70px;
+    font-family: cursive;    
+    
+    
+       
+}
+
+.rightSide {
+    float: right;
+    width: 150px;
+    padding: 0px;
+    font-size: 20px;
+    font-style: italic;
+    font-family: fantasy;
+    color: #F08080;
+       
+}
+
+
+.mainPage {
+    margin-left: 200px;
+    margin-right: 200px;
+    border-left: solid #f1f1f1 1px;
+    border-right: solid #f1f1f1 1px;
+    padding: 20px;
+    background-color: white;
+}
+
+.images {
+    float: left;
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+        
+a:link {
+    text-decoration: none;
+}
+        
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
